@@ -8,9 +8,9 @@ then
 fi
 
 #edit directory before starting the bash script
-cd recon
-mkdir yahoo
-cd yahoo
+cd ..
+mkdir $1 #$1 stands for domain given to enum
+cd $1
 
 #saved directories(don't edit this.)
 if [ ! -d "thirdlevel" ]; then
